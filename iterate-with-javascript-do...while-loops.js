@@ -1,6 +1,6 @@
-nvar myArray = [];\nvar i = 10;
+var myArray = [];var i = 10;
 do
 {
-    myArray.push(i);\n  i++;
+    myArray.push(i);  i++;
 }
 while (i <= 10);
