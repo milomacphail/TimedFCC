@@ -1,0 +1,3 @@
+{
+  "index.js": "function bubbleSort(array) {\n  // change code below this line\n\n  for(var i = 0; i < array.length; i++)\n  {\n    for(var j = 0; j < array.length; j++)\n    if (array[j] > array[j + 1])\n    {\n      var temp = array[j];\n      array[j] = array[j + 1];\n      array[j + 1] = temp;\n    }\n  }\n  console.log(array);\n  return array;\n  // change code above this line\n}\n\nbubbleSort([1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 43, 2, 55, 1, 234, 92]);\n"
+}
