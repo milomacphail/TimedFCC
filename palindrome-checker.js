@@ -1,0 +1,1 @@
+{"index.js":"function palindrome(str) {\n  var regEx = /[\\W_]/g;\n  var lower = str.toLowerCase().replace(regEx, '');\n  var reverseString = lower.split('').reverse().join('');\n  return lower===reverseString;\n}\n\n\n\npalindrome(\"eye\");"}
